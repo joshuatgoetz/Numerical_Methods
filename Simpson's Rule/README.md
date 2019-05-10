@@ -5,8 +5,13 @@ The function numerically evaluates the integral of the vector of function
 values ‘y’ with respect to ‘x’
 
 
+
   Inputs:
+  
     x - row vector which serves as the integrated domain; IMPORTANT: must be evenly spaced
+    
     y - contains the values of the function when evaluated at the values stored in 'x'
-  Outputs :
+    
+  Outputs:
+  
     I - Simpson's rule approximation of the integral
