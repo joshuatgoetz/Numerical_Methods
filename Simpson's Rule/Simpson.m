@@ -1,9 +1,9 @@
 function I = Simpson(x,y)
 % A general MATLAB function for integrating experimental data using
-% Simpson’s 1/3 rule. The function will check if there are an odd number of
+% Simpsonâ€™s 1/3 rule. The function will check if there are an odd number of
 % intervals, if there are, the trapezoidal rule will be used for the last interval.
 % The function numerically evaluates the integral of the vector of function
-% values ‘y’ with respect to ‘x’
+% values â€˜yâ€™ with respect to â€˜xâ€™
 
     x_L = length(x); y_L = length(y);
     checkspace = linspace(x(1),x(x_L),x_L); %Evenly spaced vector of the same length as x, used for error checking
